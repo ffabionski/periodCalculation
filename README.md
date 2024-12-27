@@ -1,6 +1,6 @@
 # Period Calculation Algorithms in C
 
-This project implements two algorithms, **PeriodNaive** and **PeriodSmart**, to compute the **minimum fractional period** of a string. The two algorithms differ in their time complexity, with **PeriodNaive** having a complexity of \( \Theta(n^2) \), and **PeriodSmart** achieving \( \Theta(n) \).
+This project implements two algorithms, **PeriodNaive** and **PeriodSmart**, to compute the **minimum fractional period** of a string. The two algorithms differ in their time complexity, with **PeriodNaive** having a complexity of $\Theta(n^2)$, and **PeriodSmart** achieving \( \Theta(n) \).
 
 ## Context
 
