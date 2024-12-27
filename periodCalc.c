@@ -148,7 +148,7 @@ int stringLength(int i)
  */
 void createString(char *stringa, int lun)
 {
-   char alfabeto[3] = {'a', 'b', 'c'};
+   char alph[3] = {'a', 'b', 'c'};
    int q = rand() % lun;
    char strTmp[lun + 1];
    for (int j = 0; j < lun; j++)
@@ -156,11 +156,11 @@ void createString(char *stringa, int lun)
       if (j < q)
       {
          int r = rand() % 2;
-         strTmp[j] = alfabeto[r];
+         strTmp[j] = alph[r];
       }
       else if (j == q)
       {
-         strTmp[j] = alfabeto[2];
+         strTmp[j] = alph[2];
       }
       else
       {
