@@ -17,7 +17,7 @@ For example, the string `"ababab"` has a fractional period `"ab"`, which can be 
 ### Implemented Algorithms
 
 1. **PeriodNaive**:
-   - This algorithm computes the minimum fractional period using a brute-force approach with time complexity \( \Theta(n^2) \). 
+   - This algorithm computes the minimum fractional period using a brute-force approach with time complexity $\Theta(n^2)$. 
    - During implementation, we utilized a method that might result in linear average-case performance, improving its efficiency in many practical scenarios.
 
 2. **PeriodSmart**:
