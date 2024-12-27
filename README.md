@@ -21,7 +21,7 @@ For example, the string `"ababab"` has a fractional period `"ab"`, which can be 
    - During implementation, we utilized a method that might result in linear average-case performance, improving its efficiency in many practical scenarios.
 
 2. **PeriodSmart**:
-   - This algorithm uses an optimized approach with linear time complexity \( \Theta(n) \), making it significantly faster in all cases.
+   - This algorithm uses an optimized approach with linear time complexity $\Theta(n)$, making it significantly faster in all cases.
 
 ### Performance Comparison
 
